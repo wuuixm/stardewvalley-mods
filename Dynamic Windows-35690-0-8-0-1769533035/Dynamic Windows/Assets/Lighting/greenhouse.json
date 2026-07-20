@@ -1,0 +1,48 @@
+{
+  "ProfileName": "Greenhouse",
+  "TimeGradient": [
+
+    { "Time": 600, "Hue": 0.12, "Saturation": 0.8, "Lightness": 0.45 },
+
+    { "Time": 1300, "Hue": 0.16, "Saturation": 0.7, "Lightness": 0.85 },
+
+    { "Time": 1700, "Hue": 0.1, "Saturation": 1.0, "Lightness": 0.6 },
+
+    { "Time": 1900, "Hue": 0.08, "Saturation": 1.0, "Lightness": 0.2 },
+
+    { "Time": 2000, "Hue": 0.65, "Saturation": 0.9, "Lightness": 0.37 }
+  ],
+  "LightSources": [
+    {
+      "Type": "Fill", 
+      "Scale": 10.0,
+      "Alpha": 0.63, 
+      "LayerDepth": 0.97,
+      "SaturationMultiplier": 1.1,
+      "LightnessMultiplier": 0.55,
+      "PositionOffsetX": 576,
+      "PositionOffsetY": 256
+    },
+    {
+      "Type": "Shaft", 
+      "Scale": 11.5,
+      "Alpha": 0.93, 
+      "LayerDepth": 1.0,
+      "PositionOffsetX": 576
+    },
+    {
+      "Type": "Shaft", 
+      "Scale": 10.0,
+      "Alpha": 0.82, 
+      "LayerDepth": 1.0,
+      "PositionOffsetX": 200
+    },
+    {
+      "Type": "Shaft", 
+      "Scale": 10.5,
+      "Alpha": 0.82, 
+      "LayerDepth": 1.0,
+      "PositionOffsetX": 950
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "Format": "1.18.0",
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+          "Sprinkler to Quality": "599 1 336 1 338 1/Home/621/false/Farming 6",
+          "Quality to Iridium": "621 1 337 1 787 1/Home/645/false/Farming 9"
+        }
+      }
+    ]
+  }
+ 

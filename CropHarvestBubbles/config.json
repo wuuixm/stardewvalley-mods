@@ -1,0 +1,11 @@
+{
+  "ModEnabled": true,
+  "Toggled": true,
+  "RequireKeyPress": false,
+  "KeyPressToggle": false,
+  "IgnoreFlowers": true,
+  "IgnorePots": true,
+  "OpacityPercent": 75,
+  "SizePercent": 100,
+  "PressKeys": "None"
+}

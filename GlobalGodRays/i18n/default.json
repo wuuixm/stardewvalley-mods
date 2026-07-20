@@ -1,0 +1,53 @@
+﻿{
+  "GodraysEnabled": "God rays enabled for {0}.", // {0} will either be the location name or the current weather ID.
+  "GodraysDisabled": "God rays disabled for {0}.",
+  
+  "ToggleLocationKey_Name": "Toggle Location God Rays",
+  "ToggleLocationKey_Tooltip": "Press this key to toggle whether god rays are shown in the current location.",
+  
+  "ToggleWeatherKey_Name": "Toggle Current Weather",
+  "ToggleWeatherKey_Tooltip": "Press this key to toggle whether god rays are shown in the current weather.",
+  
+  "RayScale_Name": "Ray Scale",
+  "RayScale_Tooltip": "Adjusts the size of the god rays. Higher values make them cover more of the screen. Lower values make them cover less of the screen. Larger rays become more transparent to avoid blinding white lights.",
+  
+  "RayIntensity_Name": "Ray Intensity",
+  "RayIntensity_Tooltip": "Adjusts the density and number of the god rays. Higher values means more god rays that are closer together. Lower values means fewer god rays that are further apart.",
+  
+  "RayAnimationSpeed_Name": "Ray Animation Speed",
+  "RayAnimationSpeed_Tooltip": "Adjusts how fast the god rays move across the screen. Higher values make them move faster. Lower values make them move slower.",
+  
+  "RayOpacityModifier_Name": "Ray Opacity",
+  "RayOpacityModifier_Tooltip": "Adjusts the overall opacity of the god rays. Higher values make them more opaque. Lower values make them more transparent.",
+  
+  "FadeUnderClouds_Name": "Fade Under Clouds",
+  "FadeUnderClouds_Tooltip": "If enabled, god rays will fade out when standing under a cloud shadow.",
+  
+  "OnlyWhenSunny_Name": "Disable in Bad Weather",
+  "OnlyWhenSunny_Tooltip": "If enabled, god rays will not show in inclement weather. For modded weathers, this will depend on whether or not the mod correctly marks its weather as inclement weather.",
+  
+  "WeatherSettings": "Weather Settings",
+  "Generic": "Generic",
+  "Vanilla": "Vanilla", // Vanilla as in "not modded"
+  "Modded": "Modded",
+  
+  "GenericPageTooltip": "Settings that apply to sunny weather weather types that do not have weather-specific configuration applied.",
+  "VanillaPageTooltip": "Settings for the different vanilla weather types.", // Vanilla as in "not modded" i.e. Rain, Snow, Thunder, etc.
+  "ModdedPageTooltip": "Settings for modded weather types currently loaded by other mods.",
+  
+  "EnableRays_Name": "Enable God Rays",
+  "EnableRays_Tooltip": "If disabled, god rays will be disabled for this weather type and every setting beneath this will be ignored.",
+  
+  "UseGenericSettings_Name": "Use Generic Settings",
+  "UseGenericSettings_Tooltip": "If enabled, the generic settings will be used and every setting beneath this will be ignored.",
+  
+  "Weather_Sun": "Sunny",
+  "Weather_Wind": "Wind",
+  "Weather_Rain": "Rain",
+  "Weather_Storm": "Storm",
+  "Weather_Snow": "Snow",
+  "Weather_GreenRain": "Green Rain",
+  "Weather_Festival": "Festival",
+  
+  "NoModdedWeathers": "No modded weathers are installed or loaded.",
+}

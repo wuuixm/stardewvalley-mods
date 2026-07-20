@@ -1,0 +1,23 @@
+{
+    "Name": "Global God Rays",
+    "Author": "Spiderbuttons",
+    "Version": "1.1.1",
+    "Description": "Render gorgeous sun beams in outdoor locations during the day.",
+    "UniqueID": "Spiderbuttons.GlobalGodRays",
+    "EntryDll": "GlobalGodRays.dll", 
+    "UpdateKeys": [ "Nexus:40483" ],
+    "Dependencies": [
+      {
+        "UniqueID": "Kana.WeatherWonders",
+        "IsRequired": false,
+      },
+      {
+        "UniqueID": "leclair.cloudyskies",
+        "IsRequired": false,
+      },
+      {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "IsRequired": false,
+      },
+    ]
+}

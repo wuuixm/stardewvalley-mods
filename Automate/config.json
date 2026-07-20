@@ -1,0 +1,27 @@
+{
+  "Enabled": true,
+  "AutomationInterval": 60,
+  "Controls": {
+    "ToggleOverlay": "U"
+  },
+  "ConnectorNames": [],
+  "JunimoHutBehaviorForGems": "AutoDetect",
+  "JunimoHutBehaviorForFertilizer": "AutoDetect",
+  "JunimoHutBehaviorForSeeds": "AutoDetect",
+  "JunimoHutBehaviors": {},
+  "CollectTreeMoss": true,
+  "WarnForMissingBridgeMod": true,
+  "ChestsEnabledByDefault": true,
+  "ChestOverrides": {},
+  "MachineOverrides": {
+    "MiniShippingBin": {
+      "Priority": -2,
+      "Enabled": false
+    },
+    "ShippingBin": {
+      "Priority": -1,
+      "Enabled": false
+    }
+  },
+  "MinMinutesForFairyDust": 20
+}

@@ -1,0 +1,248 @@
+{
+"Changes": [
+
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 224,
+                "Y": 800,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 800,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 144,
+                "Y": 832,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 160,
+                "Y": 832,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 64,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 256,
+                "Y": 800,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 80,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 272,
+                "Y": 800,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 96,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 336,
+                "Y": 864,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 112,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 352,
+                "Y": 864,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 128,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 224,
+                "Y": 832,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 144,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 240,
+                "Y": 832,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 160,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 288,
+                "Y": 832,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 176,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 304,
+                "Y": 832,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture_3",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 192,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 144,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+	{
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture_3",
+            "FromFile": "assets/Furniture/mask_strip.png",
+            "FromArea": {
+                "X": 208,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 16,
+                "Y": 144,
+                "Width": 16,
+                "Height": 32
+            }
+        }
+   ]
+}

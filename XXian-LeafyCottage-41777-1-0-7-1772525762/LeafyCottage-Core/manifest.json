@@ -1,0 +1,10 @@
+{
+    "Name": "Leafy Cottage - Core",
+    "Author": "XiaoXian",
+    "Version": "1.0.7",
+    "Description": "Adds custom lighting effects to the farmhouse.",
+    "UniqueID": "XiaoXian.LeafyCottage.Core",
+    "EntryDll": "LeafyCottage.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:41777"]
+}

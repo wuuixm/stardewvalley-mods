@@ -1,0 +1,42 @@
+{
+  "Format": "2.2.0",
+
+  "Changes": [
+
+
+// --- [SUNROOM]
+
+	{
+            "Action": "Include",
+            "FromFile": "assets/Greenhouse/Sunroom/sunroom.json"
+        },
+
+
+
+
+// --- [GREENHOUSE]
+	{
+            "Action": "Include",
+            "FromFile": "assets/Greenhouse/greenhouse.json"
+        },
+
+
+
+
+// --- [FURNITURE WINDOWS]
+	{
+            "Action": "Include",
+            "FromFile": "assets/Furniture/furniture.json"
+        },
+        
+        
+
+
+// --- [TILED WINDOWS]
+	{
+            "Action": "Include",
+            "FromFile": "assets/Tile/tile.json"
+        }
+	
+  ]
+}

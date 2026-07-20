@@ -1,0 +1,16 @@
+﻿{
+  "Name": "GoblinHours Elf Ears for Fashion Sense",
+  "Author": "GoblinHours",
+  "Version": "1.4",
+  "Description": "Makes the elf ears for female farmers be the correct height",
+  "UniqueID": "GoblinHours.ElFEars.FS.CP",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "PeacefulEnd.FashionSense",
+      "IsRequired": true
+    }
+  ]
+}

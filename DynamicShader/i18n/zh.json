@@ -1,0 +1,29 @@
+{
+  "config.shadow.title": "阴影参数",
+  "config.shadow.gradient-start.name": "阴影渐变起始透明度",
+  "config.shadow.gradient-start.tooltip": "阴影从物体根部开始的透明度 (0-1)",
+  "config.shadow.gradient-end.name": "阴影渐变结束透明度",
+  "config.shadow.gradient-end.tooltip": "阴影末端的透明度 (0-1)",
+  "config.shadow.enable-simple.name": "启用小物体阴影",
+  "config.shadow.enable-simple.tooltip": "是否为小型物体（杂草、石头、碎片等）渲染阴影",
+
+  "config.cloud.title": "云朵阴影参数",
+  "config.cloud.enable.name": "启用云朵阴影",
+  "config.cloud.enable.tooltip": "是否在室外场景渲染漂移的云朵阴影",
+  "config.cloud.count.name": "屏幕可见云朵数",
+  "config.cloud.count.tooltip": "屏幕上平均可见的云朵阴影数量 (1-8)",
+  "config.cloud.scale.name": "云朵阴影缩放",
+  "config.cloud.scale.tooltip": "云朵阴影的大小倍率 (0.5-3.0)",
+  "config.cloud.speed.name": "漂移速度",
+  "config.cloud.speed.tooltip": "云朵阴影的移动速度倍率",
+  "config.cloud.opacity.name": "云朵阴影透明度",
+  "config.cloud.opacity.tooltip": "云朵阴影的透明度 (0.05-1.0)",
+
+  "config.tiltshift.title": "移轴效果参数",
+  "config.tiltshift.enable.name": "启用移轴效果",
+  "config.tiltshift.enable.tooltip": "是否启用移轴模糊后处理效果",
+  "config.tiltshift.top-blur-range.name": "顶部模糊带宽比例",
+  "config.tiltshift.top-blur-range.tooltip": "屏幕顶部模糊区域的范围比例",
+  "config.tiltshift.bottom-blur-range.name": "底部模糊带宽比例",
+  "config.tiltshift.bottom-blur-range.tooltip": "屏幕底部模糊区域的范围比例"
+}

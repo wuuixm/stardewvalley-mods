@@ -1,0 +1,13 @@
+{
+  "ShadowGradientStart": 1.0,
+  "ShadowGradientEnd": 0.15,
+  "EnableSimpleShadow": false,
+  "EnableCloudShadow": true,
+  "CloudShadowCount": 3,
+  "CloudShadowScale": 1.0,
+  "CloudShadowSpeed": 0.5,
+  "CloudShadowOpacity": 0.3,
+  "EnableTiltShift": true,
+  "TopBlurRangeRatio": 0.25,
+  "BottomBlurRangeRatio": 0.25
+}

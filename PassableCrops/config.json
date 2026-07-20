@@ -1,0 +1,17 @@
+{
+  "PassableCrops": true,
+  "PassableScarecrows": true,
+  "PassableSprinklers": true,
+  "PassableForage": true,
+  "PassableTeaBushes": true,
+  "PassableTreeGrowth": 3,
+  "PassableFruitTreeGrowth": 2,
+  "PassableWeeds": true,
+  "PassableByAll": false,
+  "SlowDownWhenPassing": true,
+  "ShakeWhenPassing": true,
+  "PlaySoundWhenPassing": true,
+  "UseCustomDrawing": true,
+  "IncludeObjects": [],
+  "ExcludeObjects": []
+}

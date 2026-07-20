@@ -1,0 +1,29 @@
+{
+  "config.shadow.title": "Shadow Settings",
+  "config.shadow.gradient-start.name": "Shadow Gradient Start Opacity",
+  "config.shadow.gradient-start.tooltip": "Opacity at the base of shadow (0-1)",
+  "config.shadow.gradient-end.name": "Shadow Gradient End Opacity",
+  "config.shadow.gradient-end.tooltip": "Opacity at the tip of shadow (0-1)",
+  "config.shadow.enable-simple.name": "Enable Small Item Shadow",
+  "config.shadow.enable-simple.tooltip": "Render shadows for small objects (weeds, stones, debris, etc.)",
+
+  "config.cloud.title": "Cloud Shadow Settings",
+  "config.cloud.enable.name": "Enable Cloud Shadows",
+  "config.cloud.enable.tooltip": "Render drifting cloud shadows on outdoor maps",
+  "config.cloud.count.name": "Visible Cloud Count",
+  "config.cloud.count.tooltip": "Average number of cloud shadows visible on screen (1-8)",
+  "config.cloud.scale.name": "Cloud Shadow Scale",
+  "config.cloud.scale.tooltip": "Size multiplier for cloud shadows (0.5-3.0)",
+  "config.cloud.speed.name": "Drift Speed",
+  "config.cloud.speed.tooltip": "Cloud shadow movement speed multiplier",
+  "config.cloud.opacity.name": "Cloud Shadow Opacity",
+  "config.cloud.opacity.tooltip": "Opacity of cloud shadows (0.05-1.0)",
+
+  "config.tiltshift.title": "Tilt-Shift Effect Settings",
+  "config.tiltshift.enable.name": "Enable Tilt-Shift Effect",
+  "config.tiltshift.enable.tooltip": "Enable tilt-shift blur post-processing effect",
+  "config.tiltshift.top-blur-range.name": "Top Blur Range Ratio",
+  "config.tiltshift.top-blur-range.tooltip": "Range ratio of the blur zone at the top of the screen",
+  "config.tiltshift.bottom-blur-range.name": "Bottom Blur Range Ratio",
+  "config.tiltshift.bottom-blur-range.tooltip": "Range ratio of the blur zone at the bottom of the screen"
+}

@@ -1,0 +1,132 @@
+{
+"Changes": [
+
+	// _______________________________________________________________
+	//
+	// --- [CUSTOM]
+	// _______________________________________________________________
+	{
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/Greenhouse/ts_greenhouse_full.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "ToArea": {
+                "X": 432,
+                "Y": 976,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+	{
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/Greenhouse/ts_greenhouse_full.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 64
+            },
+            "ToArea": {
+                "X": 416,
+                "Y": 976,
+                "Width": 16,
+                "Height": 64
+            }
+        },
+	{
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/Greenhouse/ts_greenhouse_full.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 64
+            },
+            "ToArea": {
+                "X": 464,
+                "Y": 976,
+                "Width": 16,
+                "Height": 64
+            }
+        },
+
+
+
+
+
+	// _______________________________________________________________
+	//
+	// --- [VANILLA]
+	// _______________________________________________________________
+	{
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/Greenhouse/ts_greenhouseVanilla_full.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "ToArea": {
+                "X": 432,
+                "Y": 976,
+                "Width": 32,
+                "Height": 48
+            },
+            "When": {
+                "Esoterick.DynamicWindows/SelectedGreenhousePack": "Vanilla"
+            },
+	   "Update": "OnLocationChange, OnTimeChange"
+        },
+	{
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/Greenhouse/ts_greenhouseVanilla_full.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 64
+            },
+            "ToArea": {
+                "X": 416,
+                "Y": 976,
+                "Width": 16,
+                "Height": 64
+            },
+            "When": {
+                "Esoterick.DynamicWindows/SelectedGreenhousePack": "Vanilla"
+           },
+	   "Update": "OnLocationChange, OnTimeChange"
+        },
+	{
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/Greenhouse/ts_greenhouseVanilla_full.png",
+            "FromArea": {
+                "X": 48,
+                "Y": 0,
+                "Width": 16,
+                "Height": 64
+            },
+            "ToArea": {
+                "X": 464,
+                "Y": 976,
+                "Width": 16,
+                "Height": 64
+            },
+            "When": {
+                "Esoterick.DynamicWindows/SelectedGreenhousePack": "Vanilla"
+           },
+	   "Update": "OnLocationChange, OnTimeChange"
+        }
+   ]
+}

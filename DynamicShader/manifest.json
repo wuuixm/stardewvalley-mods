@@ -1,0 +1,10 @@
+{
+    "Name": "DynamicShader",
+    "Author": "Nook",
+    "Version": "1.0.15",
+    "Description": "Provides dynamic shader effects for the game.", 
+    "UniqueID": "Nook.DynamicShader",
+    "EntryDll": "DynamicShader.dll",
+    "MinimumApiVersion": "4.2.1",
+    "UpdateKeys": [ "Nexus: 40775" ]
+  }

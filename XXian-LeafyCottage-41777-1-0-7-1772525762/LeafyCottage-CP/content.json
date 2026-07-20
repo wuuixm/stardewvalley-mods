@@ -1,0 +1,315 @@
+{
+    "Format": "2.8.0",
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/houses",
+            "FromFile": "assets/{{season}}_houses.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 176,
+                "Height": 176
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 176,
+                "Height": 176
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/houses",
+            "FromFile": "assets/{{season}}_houses.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 176,
+                "Width": 176,
+                "Height": 176
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 176,
+                "Width": 176,
+                "Height": 176
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/houses",
+            "FromFile": "assets/{{season}}_houses.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 352,
+                "Width": 176,
+                "Height": 176
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 352,
+                "Width": 176,
+                "Height": 176 
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Fields": {
+                "Farmhouse": {
+                    "Metadata": {
+                        "ChimneyPosition": "152 15"
+                    },
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 176,
+                        "Height": 176
+                    },
+                    "DrawOffset": "-16, 0",
+                    "SortTileOffset": 4.0,
+                    "HumanDoor": { "X": 6, "Y": 1 },
+                    "CollisionMap": "\nXXXXXXXXX\nXXXXXXXXX\nXOOOOOOOX\nXOOOOOOOX\nXXXXOOOXXX\n"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [ "Farmhouse", "ActionTiles" ],
+            "Entries": {
+                "{{ModId}}_WoodPile_1": {
+                    "Id": "{{ModId}}_WoodPile_1",
+                    "Tile": { "X": 4, "Y": 1 },
+                    "Action": "LumberPile"
+                },
+                "{{ModId}}_WoodPile_2": {
+                    "Id": "{{ModId}}_WoodPile_2",
+                    "Tile": { "X": 3, "Y": 1 },
+                    "Action": "LumberPile"
+                },
+                "{{ModId}}_WoodPile_3": {
+                    "Id": "{{ModId}}_WoodPile_3",
+                    "Tile": { "X": 2, "Y": 1 },
+                    "Action": "LumberPile"
+                },
+                "{{ModId}}_WoodPile_4": {
+                    "Id": "{{ModId}}_WoodPile_4",
+                    "Tile": { "X": 4, "Y": 0 },
+                    "Action": "LumberPile"
+                },
+                "{{ModId}}_WoodPile_5": {
+                    "Id": "{{ModId}}_WoodPile_5",
+                    "Tile": { "X": 3, "Y": 0 },
+                    "Action": "LumberPile"
+                },
+                "{{ModId}}_WoodPile_6": {
+                    "Id": "{{ModId}}_WoodPile_6",
+                    "Tile": { "X": 2, "Y": 0 },
+                    "Action": "LumberPile"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [ "Farmhouse", "TileProperties" ],
+            "Entries": {
+                "Default_Stairs_NpcBarrier": null,
+                "{{ModId}}_Top_NpcBarrier": {
+                    "Id": "{{ModId}}_Top_NpcBarrier",
+                    "Name": "NPCBarrier",
+                    "Value": "T",
+                    "Layer": "Back",
+                    "TileArea": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 9,
+                        "Height": 2
+                    }
+                },
+                "{{ModId}}_Left_NpcBarrier": {
+                    "Id": "{{ModId}}_Left_NpcBarrier",
+                    "Name": "NPCBarrier",
+                    "Value": "T",
+                    "Layer": "Back",
+                    "TileArea": {
+                        "X": 0,
+                        "Y": 2,
+                        "Width": 1,
+                        "Height": 2
+                    }
+                },
+                "{{ModId}}_Right_NpcBarrier": {
+                    "Id": "{{ModId}}_Right_NpcBarrier",
+                    "Name": "NPCBarrier",
+                    "Value": "T",
+                    "Layer": "Back",
+                    "TileArea": {
+                        "X": 8,
+                        "Y": 2,
+                        "Width": 1,
+                        "Height": 2
+                    }
+                },
+                "{{ModId}}_BottomLeft_NpcBarrier": {
+                    "Id": "{{ModId}}_BottomLeft_NpcBarrier",
+                    "Name": "NPCBarrier",
+                    "Value": "T",
+                    "Layer": "Back",
+                    "TileArea": {
+                        "X": 0,
+                        "Y": 4,
+                        "Width": 4,
+                        "Height": 1
+                    }
+                },
+                "{{ModId}}_BottomRight_NpcBarrier": {
+                    "Id": "{{ModId}}_BottomRight_NpcBarrier",
+                    "Name": "NPCBarrier",
+                    "Value": "T",
+                    "Layer": "Back",
+                    "TileArea": {
+                        "X": 7,
+                        "Y": 4,
+                        "Width": 3,
+                        "Height": 1
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [ "Farmhouse", "DrawLayers" ],
+            "Entries": {
+                "Default_Mailbox": {
+                    "Id": "Default_Mailbox",
+                    "Texture": "Buildings\\Mailbox",
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 16,
+                        "Height": 32
+                    },
+                    "DrawPosition": "146, 144",
+                    "DrawInBackground": false,
+                    "SortTileOffset": 0.0,
+                    "OnlyDrawIfChestHasContents": null,
+                    "FrameDuration": 90,
+                    "FrameCount": 1,
+                    "FramesPerRow": -1,
+                    "AnimalDoorOffset": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [ "Farmhouse", "DrawLayers" ],
+            "Entries": {
+                "{{ModId}}_CampfireAnim": {
+                    "Id": "{{ModId}}_CampfireAnim",
+                    "Texture": "Mods/{{ModId}}/CampfireAnimTexture",
+                    "SourceRect": { 
+                        "X": 0, 
+                        "Y": 0, 
+                        "Width": 16, 
+                        "Height": 16 
+                    },
+                    "DrawPosition": { 
+                        "X": 30,
+                        "Y": 94 
+                    },
+                    "FrameCount": 4,
+                    "FramesPerRow": 4,
+                    "FrameDuration": 150,
+                    "DrawInBackground": false,
+                    "SortTileOffset": 3
+                }
+            },
+            "When": {
+                "Season": "Fall, Winter"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/CampfireAnimTexture",
+            "FromFile": "assets/campfire_anim.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [ "Farmhouse", "DrawLayers" ],
+            "Entries": {
+                "{{ModId}}_SpringAnim": {
+                    "Id": "{{ModId}}_SpringAnim",
+                    "Texture": "Mods/{{ModId}}/SpringAnimTexture",
+                    "SourceRect": { 
+                        "X": 0, 
+                        "Y": 0, 
+                        "Width": 16, 
+                        "Height": 48 
+                    },
+                    "DrawPosition": { 
+                        "X": 16.5,
+                        "Y": 95
+                    },
+                    "FrameCount": 64,
+                    "FramesPerRow": 16,
+                    "FrameDuration": 150,
+                    "DrawInBackground": false,
+                    "SortTileOffset": 3
+                }
+            },
+            "When": {
+                "Season": "Spring"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/SpringAnimTexture",
+            "FromFile": "assets/spring_anim.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [ "Farmhouse", "DrawLayers" ],
+            "Entries": {
+                "{{ModId}}_SummerAnim": {
+                    "Id": "{{ModId}}_SummerAnim",
+                    "Texture": "Mods/{{ModId}}/SummerAnimTexture",
+                    "SourceRect": { 
+                        "X": 0, 
+                        "Y": 0, 
+                        "Width": 16, 
+                        "Height": 16 
+                    },
+                    "DrawPosition": { 
+                        "X": 33,
+                        "Y": 92
+                    },
+                    "FrameCount": 3,
+                    "FramesPerRow": 3,
+                    "FrameDuration": 150,
+                    "DrawInBackground": false,
+                    "SortTileOffset": 3
+                }
+            },
+            "When": {
+                "Season": "Summer"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/SummerAnimTexture",
+            "FromFile": "assets/summer_anim.png"
+        }
+    ]
+}

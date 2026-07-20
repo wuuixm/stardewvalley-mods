@@ -1,0 +1,11 @@
+{
+  "EnableLight": true,
+  "LightOffsetX": 88,
+  "LightOffsetY": 88,
+  "LightRadius": 1.0,
+  "CustomLightTexture": "assets/custom_light.png",
+  "UseTextureColor": false,
+  "LightColorR": 0,
+  "LightColorG": 0,
+  "LightColorB": 0
+}

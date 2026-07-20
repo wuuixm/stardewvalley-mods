@@ -1,0 +1,214 @@
+{
+  //: --- [STATIC OPTIONS] ---,
+  "config.options.default": "Default",
+  "config.options.none": "None",
+  "config.options.static": "Static",
+  "config.options.custom": "Custom",
+  "config.options.vanilla": "Vanilla",
+
+
+
+  //: --- [PAGES] ---,
+  "config.page.rain-text": "Rain Settings >",
+  "config.page.rain-tooltip": "Handling of the Rain Particles",
+  "config.page.snow-text": "Snow Settings >",
+  "config.page.snow-tooltip": "Handling of the Snow Particles",
+  "config.page.sunny-text": "Sunny Settings >",
+  "config.page.sunny-tooltip": "Handling of the Sunny Mote Particles",
+  "config.page.leaf-text": "Windy Settings >",
+  "config.page.leaf-tooltip": "Handling of the Windy Lead Particles",
+  "config.page.flavor-text": "Flavor Settings >",
+  "config.page.flavor-tooltip": "Handling of the Critters and niche game effects",
+
+
+
+
+  //: --- [GENERAL SECTION] ---
+  "config.section.toggles-text": "■ Toggles",
+  "config.section.toggles-tooltip": "General Section for main system toggling",
+
+  "config.toggles.greenhousepanes-name": "Greenhouse Panes",
+  "config.toggles.greenhousepanes-tooltip": "Choose between which Greenhouse Panes to show",
+
+  "config.toggles.backgroundstyle-name": "Background Style",
+  "config.toggles.backgroundstyle-tooltip": "Choose a background pack or set to 'Static' to disable the 'Panoramic' background feature.",
+
+  "config.toggles.greenhousebackground-name": "Greenhouse Background",
+  "config.toggles.greenhousebackground-tooltip": "Choose a custom background texture for the Greenhouse. Set to Vanilla if you want it return to Vanilla tiles.",
+
+  "config.toggles.sunroombackground-name": "Sunroom Background",
+  "config.toggles.sunroombackground-tooltip": "Choose a custom background texture for Carolines Sunroom. Set to Vanilla if you want it return to Vanilla tiles.",
+
+  "config.toggles.enableweather-name": "Enable Weather (All)",
+  "config.toggles.enableweather-tooltip": "If enabled, all weather particles will be shown, otherwise none will. To stop showing a specific particle set the density to 0 in the Advanced Options.",
+
+  "config.toggles.enableGHweather-name": "Enable Weather (Greenhouse)",
+  "config.toggles.enableGHweather-tooltip": "If enabled, apply weather effects in the Greenhouse. Turn this OFF for compatibility with other Greenhouse retexture mods if having issues.",
+
+  "config.toggles.enableSRweather-name": "Enable Weather (Sunroom)",
+  "config.toggles.enableSRweather-tooltip": "If enabled, apply weather effects in the Sunroom. Turn this OFF for compatibility with other sunroom retexture mods if having issues, or preference.",
+
+  "config.toggles.enablecritter-name": "Enable Critters",
+  "config.toggles.enablecritter-tooltip": "Toggle to allow critters like butterflys to enter through open windows",
+
+  "config.toggles.enabledrift-name": "Enable Drift",
+  "config.toggles.enabledrift-tooltip": "Toggle to allow particles to drift through the windows",
+
+  "config.toggles.enablelightshaft-name": "Enable Light Shaft",
+  "config.toggles.enablelightshaft-tooltip": "Toggle to show the light shaft during a sunny day",
+
+  "config.toggles.enablelightfill-name": "Disable Light Fill",
+  "config.toggles.enablelightfill-tooltip": "Toggle to disable the square fill light behind the windows for sunny day effect if it isn't being rendered correctly.",
+
+  "config.toggles.disablevanillalight-name": "Disable Vanilla Light",
+  "config.toggles.disablevanillalight-tooltip": "Toggle to show or remove the Vanilla backing light",
+
+  "config.toggles.enablethunder-name": "Thunder SFX",
+  "config.toggles.enablethunder-tooltip": "Toggle to play the thunder SFX when lightning strikes",
+
+  "config.toggles.enablelightning-name": "Lightning Effect",
+  "config.toggles.enablelightning-tooltip": "Toggle to show lightning flashes on the windows",
+
+  "config.toggles.windowretext-name": "Window Retexture Patch",
+  "config.toggles.windowretext-tooltip": "If you have retexture packs for the Vanilla windows you might experience some strange visual glitch. Toggle this to attempt to patch for those windows. *note you will no longer see the animation effect*",
+
+  "config.toggles.enablelog-name": "Enable Debug Log",
+  "config.toggles.enablelog-tooltip": "Toggle to set Debugging to true.",
+
+
+
+
+  //: --- [RAIN SECTION] ---
+"config.section.rain.rainMain-text": "■ Rain Controls",
+  "config.section.rain.rainMain-tooltip": "Toggles and controls for handling the Rain Particles System.",
+
+ "config.rain.density-name": "Rain Density",
+  "config.rain.density-tooltip": "How many raindrops appear on the window. More is heavier. *Note: Higher density may have an impact on performance.",
+
+  "config.rain.speed-name": "Rain Speed",
+  "config.rain.speed-tooltip": "How fast the rain falls. Higher means faster.",
+
+  "config.rain.size-name": "Raindrop Size",
+  "config.rain.size-tooltip": "The scale/size of the individual raindrop streaks.",
+
+  "config.rain.alpha-name": "Raindrop Opacity",
+  "config.rain.alpha-tooltip": "The transparency of the raindrops. 1.0 is fully visible.",
+
+  "config.rain.speedvariation-name": "Speed Variation",
+  "config.rain.speedvariation-tooltip": "Adds randomness to raindrop speeds to create a depth effect. 0 is uniform speed.",
+
+
+
+
+
+
+  //: --- [SNOW SECTION] ---
+"config.section.snow.snowMain-text": "■ Snow Controls",
+  "config.section.snow.snowMain-tooltip": "Toggles and controls for handling the Snow Particles System.",
+
+
+"config.snow.density-name": "Snow Density",
+  "config.snow.density-tooltip": "Controls how many snowflakes appear on the window. *Note: Higher density may have an impact on performance.",
+
+  "config.snow.size-name": "Snowflake Size",
+  "config.snow.size-tooltip": "The scale/size of the individual snowflake particles.",
+
+  "config.snow.speedvariation-name": "Speed Variation",
+  "config.snow.speedvariation-tooltip": "Adds randomness to snowflake speeds to create a depth effect. 0 is uniform speed.",
+
+  "config.section.snow.foreground-name": "■ Snow: Foreground Layer",
+  "config.section.snow.foreground-tooltip": "Controls for the fastest, most opaque snowflakes that appear closest to you.",
+  "config.snow.foreground.speed-name": "FG Speed",
+  "config.snow.foreground.alpha-name": "FG Opacity",
+  "config.snow.foreground.diagonal-name": "FG Diagonal Motion",
+  "config.snow.foreground.shakefreq-name": "FG Shake Frequency",
+  "config.snow.foreground.shakeamp-name": "FG Shake Amount",
+
+  "config.section.snow.midground-name": "■ Snow: Midground Layer",
+  "config.section.snow.midground-tooltip": "Controls for the standard snowflakes that make up the bulk of the effect.",
+  "config.snow.midground.speed-name": "MG Speed",
+  "config.snow.midground.alpha-name": "MG Opacity",
+  "config.snow.midground.diagonal-name": "MG Diagonal Motion",
+  "config.snow.midground.shakefreq-name": "MG Shake Frequency",
+  "config.snow.midground.shakeamp-name": "MG Shake Amount",
+
+  "config.section.snow.background-name": "■ Snow: Background Layer",
+  "config.section.snow.background-tooltip": "Controls for the slowest, most transparent snowflakes that appear farthest away.",
+  "config.snow.background.speed-name": "BG Speed",
+  "config.snow.background.alpha-name": "BG Opacity",
+  "config.snow.background.diagonal-name": "BG Diagonal Motion",
+  "config.snow.background.shakefreq-name": "BG Shake Frequency",
+  "config.snow.background.shakeamp-name": "BG Shake Amount",
+
+
+
+
+
+
+
+  //: --- [SUNNY SECTION] ---
+"config.section.sunny.sunnyMain-text": "■ Sunny Weather Controls",
+  "config.section.sunny.sunnyMain-tooltip": "Toggles and controls for handling the Sunny Motes Particles System.",
+
+ "config.sunny.density-name": "Mote Density",
+  "config.sunny.density-tooltip": "How many dust motes appear in each window. *Note: Higher density may have an impact on performance.",
+
+  "config.sunny.size-name": "Mote Scale",
+  "config.sunny.size-tooltip": "The base size of each dust mote.",
+
+  "config.sunny.alpha-name": "Mote Opacity",
+  "config.sunny.alpha-tooltip": "The base transparency of the dust motes.",
+
+
+
+
+
+
+  //: --- [LEAF SECTION] ---
+"config.section.leaf.leafMain-text": "■ Windy Weather Controls",
+  "config.section.leaf.leafMain-tooltip": "Toggles and controls for handling the Leaf Particles System.",
+
+ "config.leaf.density-name": "Leaf Density",
+  "config.leaf.density-tooltip": "How many leaves appear on screen at once. *Note: Higher density may have an impact on performance.",
+
+  "config.leaf.size-name": "Leaf Scale",
+  "config.leaf.size-tooltip": "The general size of the leaf sprites.",
+
+  "config.leaf.speed-name": "Leaf Speed",
+  "config.leaf.speed-tooltip": "Adjust the overall speed of the leaves. Higher is faster.",
+
+
+
+
+
+
+  //: --- [FLAVOR SECTION] ---
+"config.section.flavor.flavorMain-text": "■ Flavor Effect Controls",
+  "config.section.flavor.flavorMain-tooltip": "Toggles and controls for handling the small effects like critter chances, puddle effects, window animations, etc.",
+
+ "config.flavor.windowanim-name": "Enable Window Animations",
+  "config.flavor.windowanim-tooltip": "If enabled, windows will play an open/close animation when you interact with them.",
+
+ "config.flavor.ghfloorph-name": "Enable Greenhouse Floor",
+  "config.flavor.ghfloorph-tooltip": "If enabled, leaves will attemp to stop at the local floor for immersive effect",
+
+ "config.flavor.rainpuddle-name": "Enable Rain Puddles",
+  "config.flavor.rainpuddle-tooltip": "If enabled, Puddles will slowly form when windows are open while raining. Close the window and overtime it will dry again. Moving the window also instantly clears the puddle.",
+
+  "config.flavor.driftchance-name": "Drift Chance",
+  "config.flavor.driftchance-tooltip": "Set % chance particles can drift inside if in the lower window.",
+
+  "config.flavor.critterchance-name": "Critter Chance",
+  "config.flavor.critterchance-tooltip": "Set % chance Critters can spawn inside from an open window. There is a larger buff when you first open a window.",
+
+"config.flavor.critterweather-name": "Critter Weather Chance",
+  "config.flavor.critterweather-tooltip": "Set % chance Critter weather event triggers in able weather.",
+
+  "config.flavor.lightshaftalpha-name": "Light Shaft Alpha",
+  "config.flavor.lightshaftalpha-tooltip": "Light Shaft Alpha Multiplier."
+
+
+
+
+
+}

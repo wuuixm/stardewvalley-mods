@@ -1,0 +1,11 @@
+{
+    "Name": "Leafy Cottage - CP",
+    "Author": "XiaoXian",
+    "Version": "1.0.7",
+    "Description": "Replaces farmhouse textures with seasonal variants and animations.",
+    "UniqueID": "XiaoXian.LeafyCottage.CP",
+    "UpdateKeys": ["Nexus:41777"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,203 @@
+{
+	"Changes": [
+		// _______________________________________________________________
+		//
+		// --- [SUN & CUSTOM]
+		// _______________________________________________________________
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full.png",
+			"FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full.png",
+			"FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 240, "Width": 16, "Height": 16 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full.png",
+			"FromArea": { "X": 96, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 64 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full.png",
+			"FromArea": { "X": 112, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 64 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 48 },
+			"ToArea": { "X": 16, "Y": 64, "Width": 96, "Height": 48 }
+		},
+
+		// _______________________________________________________________
+		//
+		// --- [SUN & VANILLA]
+		// _______________________________________________________________
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full.png",
+			"FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 },
+			"When": { 
+        			"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla"
+    			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full.png",
+			"FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 240, "Width": 16, "Height": 16 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full.png",
+			"FromArea": { "X": 96, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 64 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full.png",
+			"FromArea": { "X": 112, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 64 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 48 },
+			"ToArea": { "X": 16, "Y": 64, "Width": 96, "Height": 48 },
+			"When": { 
+        			"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla"
+    			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+		// _______________________________________________________________
+		//
+		// --- [RAIN & CUSTOM]
+		// _______________________________________________________________
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full_rainy.png",
+			"FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full_rainy.png",
+			"FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 240, "Width": 16, "Height": 16 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full_rainy.png",
+			"FromArea": { "X": 96, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 64 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full_rainy.png",
+			"FromArea": { "X": 112, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 64 }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroom_full_rainy.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 48 },
+			"ToArea": { "X": 16, "Y": 64, "Width": 96, "Height": 48 }
+		},
+
+		// _______________________________________________________________
+		//
+		// --- [RAIN & VANILLA]
+		// _______________________________________________________________
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full_rainy.png",
+			"FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full_rainy.png",
+			"FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 240, "Width": 16, "Height": 16 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla", 
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full_rainy.png",
+			"FromArea": { "X": 96, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 64 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla", 
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full_rainy.png",
+			"FromArea": { "X": 112, "Y": 16, "Width": 16, "Height": 64 },
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 64 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla",
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "assets/Greenhouse/Sunroom/ts_sunroomVanilla_full_rainy.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 48 },
+			"ToArea": { "X": 16, "Y": 64, "Width": 96, "Height": 48 },
+			"When": { 
+				"Esoterick.DynamicWindows/SelectedSunroomPack": "Vanilla",
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		}
+	]
+}

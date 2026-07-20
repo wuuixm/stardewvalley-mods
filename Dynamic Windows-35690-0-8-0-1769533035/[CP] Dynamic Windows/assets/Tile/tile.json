@@ -1,0 +1,340 @@
+{
+"Changes": [
+
+	{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Furniture/mask_strip.png",
+
+      "FromArea":{
+
+         "X":0,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":32
+
+      },
+
+      "ToArea":{
+
+         "X":16,
+
+         "Y":112,
+
+         "Width":16,
+
+         "Height":32
+
+      }
+
+   },
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Furniture/mask_strip.png",
+
+      "FromArea":{
+
+         "X":16,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":32
+
+      },
+
+      "ToArea":{
+
+         "X":96,
+
+         "Y":608,
+
+         "Width":16,
+
+         "Height":32
+
+      }
+
+   },
+
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Furniture/mask_strip.png",
+
+      "FromArea":{
+
+         "X":64,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":32
+
+      },
+
+      "ToArea":{
+
+         "X":0,
+
+         "Y":128,
+
+         "Width":16,
+
+         "Height":32
+
+      }
+
+   },
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Furniture/mask_strip.png",
+
+      "FromArea":{
+
+         "X":80,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":32
+
+      },
+
+      "ToArea":{
+
+         "X":80,
+
+         "Y":624,
+         "Width":16,
+
+         "Height":32
+
+      }
+
+   },
+
+
+
+
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Tile/mask_tile_patch.png",
+
+      "FromArea":{
+
+         "X":0,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":32
+
+      },
+
+      "ToArea":{
+
+         "X":336,
+
+         "Y":224,
+
+         "Width":16,
+
+         "Height":32
+
+      }
+
+   },
+
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Tile/mask_tile_patch.png",
+
+      "FromArea":{
+
+         "X":16,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":32
+
+      },
+
+      "ToArea":{
+
+         "X":48,
+
+         "Y":608,
+
+         "Width":16,
+
+         "Height":32
+
+      }
+
+   },
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Tile/mask_tile_patch.png",
+
+      "FromArea":{
+
+         "X":32,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":16
+
+      },
+
+      "ToArea":{
+
+         "X":128,
+
+         "Y":608,
+
+         "Width":16,
+
+         "Height":16
+
+      }
+
+   },
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Tile/mask_tile_patch.png",
+
+      "FromArea":{
+
+         "X":48,
+
+         "Y":0,
+
+         "Width":16,
+
+         "Height":16
+
+      },
+
+      "ToArea":{
+
+         "X":64,
+
+         "Y":624,
+
+         "Width":16,
+
+         "Height":16
+
+      }
+
+   },
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Tile/mask_tile_patch.png",
+
+      "FromArea":{
+
+         "X":64,
+
+         "Y":0,
+
+         "Width":32,
+
+         "Height":16
+
+      },
+
+      "ToArea":{
+
+         "X":336,
+
+         "Y":192,
+
+         "Width":32,
+
+         "Height":16
+
+      }
+
+   },
+{
+
+      "Action":"EditImage",
+
+      "Target":"Maps/townInterior",
+
+            "FromFile": "assets/Tile/mask_tile_patch.png",
+
+      "FromArea":{
+
+         "X":96,
+
+         "Y":0,
+
+         "Width":32,
+
+         "Height":16
+
+      },
+
+      "ToArea":{
+
+         "X":64,
+
+         "Y":608,
+
+         "Width":32,
+
+         "Height":16
+
+      }
+
+   }
+]
+}

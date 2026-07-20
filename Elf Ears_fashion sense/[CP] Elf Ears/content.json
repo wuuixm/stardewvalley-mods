@@ -1,0 +1,42 @@
+{
+   "Format": "1.29.0",
+   "Changes": [
+		{
+		"LogName": "Female Ears",
+        "Action": "EditData",
+        "Target": "Data/PeacefulEnd/FashionSense/AppearanceData",
+		"TargetField": [ "GoblinHours.ElFEars.FS/Accessory/Elf Ears" ],
+		"Fields": {
+			"FrontAccessory": {
+				"HeadPosition": {
+					"X": 0,
+					"Y": -1
+				}
+			},
+			"RightAccessory": {
+				"HeadPosition": {
+					"X": 0,
+					"Y": -1
+				}
+			},
+			"LeftAccessory": {
+				"HeadPosition": {
+					"X": 0,
+					"Y": -1
+				}
+			},
+			"BackAccessory": {
+				"HeadPosition": {
+					"X": 0,
+					"Y": -1
+				}
+			}
+		},
+        "When": {
+			"HasMod": "PeacefulEnd.FashionSense",
+			"PlayerGender": "Female"
+		}
+		}
+
+   ]
+}

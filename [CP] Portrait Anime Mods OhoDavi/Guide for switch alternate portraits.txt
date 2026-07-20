@@ -1,0 +1,15 @@
+This mod contain some variants for some characters, if you want to switch between them,
+change the value in the content. there is a sample for changing from normal to alter portrait:
+       
+	 "Emily_Beach_Style": {
+            "AllowValues": "Normal, Alter",		
+			"Default": "Normal"
+        },
+
+change the default category to Alter:
+
+        "Emily_Beach_Style": {
+            "AllowValues": "Normal, Alter",		
+			"Default": "Alter"
+        },
+after that, save the file and it will work for your next time you open the game.

@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] Oversized Sleeves",
+   "Author": "Lamron",
+   "Version": "5.0.0",
+   "Description": "Live out your big sweater fantasies.",
+   "UniqueID": "Lamron.OversizedSleeves",
+   "MinimumApiVersion": "3.8.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "[CP] Dynamic Windows",
+  "Author": "Esoterick",
+  "Version": "0.7.4",
+  "Description": "Window Assets",
+  "UniqueID": "Esoterick.DynamicWindows.CP",
+  "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Esoterick.DynamicWindows"
+		}
+	]
+}

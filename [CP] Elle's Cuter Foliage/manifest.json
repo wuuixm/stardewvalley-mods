@@ -1,0 +1,11 @@
+{
+   "Name": "Elle's Cuter Foliage",
+   "Author": "Elle/Junimods",
+   "Version": "1.0.4",
+   "Description": "Making your outdoor experience in the valley even cuter!",
+   "UniqueID": "Elle.CuterFoliage",
+   "UpdateKeys": [ "Nexus:42871" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

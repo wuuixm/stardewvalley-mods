@@ -1,0 +1,24 @@
+{
+  "Name": "Dynamic Windows",
+  "Author": "Esoterick",
+  "Version": "0.8.0",
+  "Description": " Cozy mod to animate the weather that is outside through the windows while indoors.",
+  "UniqueID": "Esoterick.DynamicWindows",
+  "EntryDll": "DynamicWindows.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus: 35690" ],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DaisyNiko.EarthyInteriors",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    }
+  ]
+}

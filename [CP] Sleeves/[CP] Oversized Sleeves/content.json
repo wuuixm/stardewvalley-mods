@@ -1,0 +1,216 @@
+{
+  "Format": "1.19.0",
+  "ConfigSchema": {
+    "Female Sleeves": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Spring": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    },
+    "Summer": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    },
+    "Fall": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    },
+    "Winter": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    },
+    "Male Sleeves": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "SpringM": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    },
+    "SummerM": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    },
+    "FallM": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    },
+    "WinterM": {
+      "AllowValues": "Plain cuffs, Rounded cuffs, White cuffs",
+      "Default": "Plain cuffs"
+    }
+  },
+
+  "Changes": [
+
+
+    /*sleeves_F*/
+
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/female/{{Spring}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Spring", "Female Sleeves": "true"}
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/female/{{Summer}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Summer", "Female Sleeves": "true"}
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/female/{{Fall}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Fall", "Female Sleeves": "true"}
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/female/{{Winter}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Winter", "Female Sleeves": "true"}
+    },
+
+
+
+
+    /*sleeves_M*/
+
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_base, Characters/Farmer/farmer_base_bald",
+      "FromFile": "assets/male/{{SpringM}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Spring", "Male Sleeves": "true"}
+    },
+
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_base, Characters/Farmer/farmer_base_bald",
+      "FromFile": "assets/male/{{SummerM}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Summer", "Male Sleeves": "true"}
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_base, Characters/Farmer/farmer_base_bald",
+      "FromFile": "assets/male/{{FallM}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Fall", "Male Sleeves": "true"}
+    },
+
+
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Farmer/farmer_base, Characters/Farmer/farmer_base_bald",
+      "FromFile": "assets/male/{{WinterM}}.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 192,
+        "Height": 672
+      },
+      "When": {"Season": "Winter", "Male Sleeves": "true"}
+    },
+
+
+
+
+  ]
+}
